@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/CMakeLists.txt
+  spirv_cross.cpp
+  spirv_parser.cpp
+  spirv_cross_parsed_ir.cpp
+  spirv_cfg.cpp
+  Generating Code...
+  spirv-cross-core.vcxproj -> C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\build\lib\x64\Debug\spirv-cross-core.lib

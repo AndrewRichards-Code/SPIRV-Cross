@@ -1,0 +1,10 @@
+^C:\USERS\ANDREW\SOURCE\REPOS\MIRU\MIRU_SHADER_CORE\DEP\SPIRV-CROSS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross -BC:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build --check-stamp-file C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

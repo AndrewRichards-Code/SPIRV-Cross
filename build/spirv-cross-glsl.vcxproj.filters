@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_glsl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_glsl.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{DF9637E8-F154-3069-92BE-CB121B49241E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FB5B348-C898-3F49-B764-743009074F40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
