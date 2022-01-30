@@ -1,57 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_cross.cpp">
+    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_cross.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_parser.cpp">
+    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_parser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_cross_parsed_ir.cpp">
+    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_cross_parsed_ir.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_cfg.cpp">
+    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_cfg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\GLSL.std.450.h">
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\GLSL.std.450.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_common.hpp">
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_common.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_cross_containers.hpp">
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_cross_containers.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_cross_error_handling.hpp">
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_cross_error_handling.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv.hpp">
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_cross.hpp">
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_cross.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_parser.hpp">
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_parser.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_cross_parsed_ir.hpp">
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_cross_parsed_ir.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_cfg.hpp">
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_cfg.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{DF9637E8-F154-3069-92BE-CB121B49241E}</UniqueIdentifier>
+      <UniqueIdentifier>{775D338E-FC7A-31D7-8F4D-2189BDB97BBF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{4FB5B348-C898-3F49-B764-743009074F40}</UniqueIdentifier>
+      <UniqueIdentifier>{F1F50002-D134-3A19-B292-280C99D82F7C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

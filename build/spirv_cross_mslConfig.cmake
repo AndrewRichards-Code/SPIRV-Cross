@@ -45,7 +45,7 @@ unset(_expectedTargets)
 add_library(spirv-cross-msl STATIC IMPORTED)
 
 set_target_properties(spirv-cross-msl PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:spirv-cross-glsl>"
 )
 
@@ -53,28 +53,14 @@ set_target_properties(spirv-cross-msl PROPERTIES
 set_property(TARGET spirv-cross-msl APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(spirv-cross-msl PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/Debug/spirv-cross-msld.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross/build/Debug/spirv-cross-msld.lib"
   )
 
 # Import target "spirv-cross-msl" for configuration "Release"
 set_property(TARGET spirv-cross-msl APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(spirv-cross-msl PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/Release/spirv-cross-msl.lib"
-  )
-
-# Import target "spirv-cross-msl" for configuration "MinSizeRel"
-set_property(TARGET spirv-cross-msl APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
-set_target_properties(spirv-cross-msl PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/MinSizeRel/spirv-cross-msl.lib"
-  )
-
-# Import target "spirv-cross-msl" for configuration "RelWithDebInfo"
-set_property(TARGET spirv-cross-msl APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(spirv-cross-msl PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/RelWithDebInfo/spirv-cross-msl.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross/build/Release/spirv-cross-msl.lib"
   )
 
 # Make sure the targets which have been exported in some other

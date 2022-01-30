@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_cpp.cpp">
+    <ClCompile Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_cpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\spirv_cpp.hpp">
+    <ClInclude Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\spirv_cpp.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrew\source\repos\MIRU\MIRU_SHADER_CORE\dep\SPIRV-Cross\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Andrew\source\repos\MIRU\External\SPIRV-Cross\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{DF9637E8-F154-3069-92BE-CB121B49241E}</UniqueIdentifier>
+      <UniqueIdentifier>{775D338E-FC7A-31D7-8F4D-2189BDB97BBF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{4FB5B348-C898-3F49-B764-743009074F40}</UniqueIdentifier>
+      <UniqueIdentifier>{F1F50002-D134-3A19-B292-280C99D82F7C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

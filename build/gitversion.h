@@ -4,6 +4,6 @@
 #ifndef SPIRV_CROSS_GIT_VERSION_H_
 #define SPIRV_CROSS_GIT_VERSION_H_
 
-#define SPIRV_CROSS_GIT_REVISION "Git commit: 37dfb3f4 Timestamp: 2022-01-03T11:19:03"
+#define SPIRV_CROSS_GIT_REVISION "Git commit: 6214384f Timestamp: 2022-01-30T12:42:59"
 
 #endif

@@ -45,35 +45,21 @@ unset(_expectedTargets)
 add_library(spirv-cross-core STATIC IMPORTED)
 
 set_target_properties(spirv-cross-core PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross"
 )
 
 # Import target "spirv-cross-core" for configuration "Debug"
 set_property(TARGET spirv-cross-core APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(spirv-cross-core PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/Debug/spirv-cross-cored.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross/build/Debug/spirv-cross-cored.lib"
   )
 
 # Import target "spirv-cross-core" for configuration "Release"
 set_property(TARGET spirv-cross-core APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(spirv-cross-core PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/Release/spirv-cross-core.lib"
-  )
-
-# Import target "spirv-cross-core" for configuration "MinSizeRel"
-set_property(TARGET spirv-cross-core APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
-set_target_properties(spirv-cross-core PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/MinSizeRel/spirv-cross-core.lib"
-  )
-
-# Import target "spirv-cross-core" for configuration "RelWithDebInfo"
-set_property(TARGET spirv-cross-core APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(spirv-cross-core PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/RelWithDebInfo/spirv-cross-core.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross/build/Release/spirv-cross-core.lib"
   )
 
 # This file does not depend on other imported targets which have

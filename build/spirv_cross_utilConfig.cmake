@@ -45,7 +45,7 @@ unset(_expectedTargets)
 add_library(spirv-cross-util STATIC IMPORTED)
 
 set_target_properties(spirv-cross-util PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:spirv-cross-core>"
 )
 
@@ -53,28 +53,14 @@ set_target_properties(spirv-cross-util PROPERTIES
 set_property(TARGET spirv-cross-util APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(spirv-cross-util PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/Debug/spirv-cross-utild.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross/build/Debug/spirv-cross-utild.lib"
   )
 
 # Import target "spirv-cross-util" for configuration "Release"
 set_property(TARGET spirv-cross-util APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(spirv-cross-util PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/Release/spirv-cross-util.lib"
-  )
-
-# Import target "spirv-cross-util" for configuration "MinSizeRel"
-set_property(TARGET spirv-cross-util APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
-set_target_properties(spirv-cross-util PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/MinSizeRel/spirv-cross-util.lib"
-  )
-
-# Import target "spirv-cross-util" for configuration "RelWithDebInfo"
-set_property(TARGET spirv-cross-util APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(spirv-cross-util PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/RelWithDebInfo/spirv-cross-util.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross/build/Release/spirv-cross-util.lib"
   )
 
 # Make sure the targets which have been exported in some other

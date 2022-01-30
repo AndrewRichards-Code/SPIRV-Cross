@@ -45,35 +45,21 @@ unset(_expectedTargets)
 add_library(spirv-cross-reflect STATIC IMPORTED)
 
 set_target_properties(spirv-cross-reflect PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross"
 )
 
 # Import target "spirv-cross-reflect" for configuration "Debug"
 set_property(TARGET spirv-cross-reflect APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(spirv-cross-reflect PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/Debug/spirv-cross-reflectd.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross/build/Debug/spirv-cross-reflectd.lib"
   )
 
 # Import target "spirv-cross-reflect" for configuration "Release"
 set_property(TARGET spirv-cross-reflect APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(spirv-cross-reflect PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/Release/spirv-cross-reflect.lib"
-  )
-
-# Import target "spirv-cross-reflect" for configuration "MinSizeRel"
-set_property(TARGET spirv-cross-reflect APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
-set_target_properties(spirv-cross-reflect PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_MINSIZEREL "CXX"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/MinSizeRel/spirv-cross-reflect.lib"
-  )
-
-# Import target "spirv-cross-reflect" for configuration "RelWithDebInfo"
-set_property(TARGET spirv-cross-reflect APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
-set_target_properties(spirv-cross-reflect PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "CXX"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/Andrew/source/repos/MIRU/MIRU_SHADER_CORE/dep/SPIRV-Cross/build/RelWithDebInfo/spirv-cross-reflect.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/Andrew/source/repos/MIRU/External/SPIRV-Cross/build/Release/spirv-cross-reflect.lib"
   )
 
 # This file does not depend on other imported targets which have
